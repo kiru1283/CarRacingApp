@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">car2</string>
+    <string name="car">car</string>
+    <string name="road">road</string>
+    <string name="road1">road1</string>
+    <string name="couple_walking">couple walking</string>
+    <string name="bird">bird</string>
+    <string name="bird2">bird2</string>
+    <string name="birds">birds</string>
+    <string name="star2">star2</string>
+    <string name="star1">star1</string>
+    <string name="star3">star3</string>
+</resources>

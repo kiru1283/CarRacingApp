@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="joyiwendi.com.car2.MainActivity">
+
+    <ImageView
+        android:id="@+id/background_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center"
+        android:background="@android:color/black"
+        android:contentDescription="@string/road1"
+        android:src="@drawable/night12" />
+
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:contentDescription="@string/car"
+        android:onClick="onClickCar"
+        app:srcCompat="@drawable/car" />
+
+
+
+    <ImageView
+        android:id="@+id/policecar"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical|center|bottom"
+        android:layout_below="@id/car"
+        android:contentDescription="@string/car"
+        android:onClick="onClickCar"
+        app:srcCompat="@drawable/police" />
+
+    <ImageView
+        android:id="@+id/birds"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|center_vertical|end"
+        android:contentDescription="@string/birds"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/flap" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|center"
+        android:contentDescription="@string/star1"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|center"
+        android:contentDescription="@string/star2"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/star1" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|bottom|center_vertical|center"
+        android:contentDescription="@string/star3"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/star2" />
+
+    <ImageView
+        android:id="@+id/background_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:contentDescription="@string/road"
+        android:src="@drawable/night11" />
+
+
+</FrameLayout>
